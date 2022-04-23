@@ -1,0 +1,31 @@
+{
+  "name": "simple-js-tooltip",
+  "version": "0.0.1",
+  "description": "easily create a tooltip with vanilla.js or react.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests are currently setup\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewsgit/simple-js-tooltip.git"
+  },
+  "keywords": [
+    "js",
+    "tooltip",
+    "simple",
+    "react.js",
+    "vanilla.js",
+    "customizable"
+  ],
+  "author": "ewsgit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewsgit/simple-js-tooltip/issues"
+  },
+  "homepage": "https://github.com/ewsgit/simple-js-tooltip#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "typescript": "^4.6.3"
+  }
+}
