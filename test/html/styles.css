@@ -1,0 +1,38 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.circle {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  background-color: #1273aa;
+  border: 0.5rem solid #1273aa;
+  transition: all 0.2s ease;
+}
+
+.circle:hover {
+  background-color: #1273aa55;
+}
