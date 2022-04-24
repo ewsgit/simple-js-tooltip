@@ -21,7 +21,14 @@
       <div class="circle"></div>
     </div>
     <script>
-
+      console.log(new SimpleTooltip({
+        element: document.querySelector('.box'),
+        // content: 'Hello World',
+        position: 'top',
+        overflowScreen: false,
+        caret: false,
+        followMouse: false
+      }))
     </script>
   </body>
 </html>

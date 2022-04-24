@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd test/html
 npm exec lite-server &
-cd ../../js
+cd js
 npm exec tsc &

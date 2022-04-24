@@ -1,6 +1,6 @@
 {
   "name": "simple-js-tooltip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "easily create a tooltip with vanilla.js or react.js",
   "main": "index.js",
   "scripts": {
